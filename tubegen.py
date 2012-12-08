@@ -9,6 +9,10 @@ import uuid, os
 id = uuid.uuid4()
 path = "c:\\InterTubes_Git\\Top100"
 
+#
+#  This is a highly chopped down version of code found at
+#  http://codeghar.wordpress.com/2011/05/20/python-script-to-calculate-checksum-of-file/
+#
 def get_custom_checksum(input_file_name):
     from datetime import datetime
     starttime = datetime.now()
@@ -50,7 +54,9 @@ def get_custom_checksum(input_file_name):
         }
     return custom_checksum_profile
 
-
+#
+#  This generates the output to stdout for now
+#
 for (path, dirs, files) in os.walk(path):
   print path,"contains"
   for name in files:
