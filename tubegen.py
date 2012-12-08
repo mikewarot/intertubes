@@ -1,5 +1,11 @@
 import uuid, os
-
+#
+#  This is a very early prototype, trying to flesh out some ideas as code
+#
+#  I'm not very versed in python, github, and distributed development, but I'm willing to learn.
+#
+#  Mike Warot - December 8, 2012
+#
 id = uuid.uuid4()
 path = "c:\\InterTubes_Git\\Top100"
 
